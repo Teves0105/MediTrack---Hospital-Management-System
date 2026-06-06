@@ -40,7 +40,7 @@ This project is built heavily around core data structures to optimize specific o
     * *Queue:* Used to process daily appointments in the exact order they were booked.
 
 ---
-<img width="1000" height="522" alt="Image" src="https://github.com/user-attachments/assets/5c8b71b7-72ba-4300-a208-f047ac0177b1" />
+<img width="1000" height="450" alt="Image" src="https://github.com/user-attachments/assets/5c8b71b7-72ba-4300-a208-f047ac0177b1" />
 
 ## 📂 Project Structure
 
