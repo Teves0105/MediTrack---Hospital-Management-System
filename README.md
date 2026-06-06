@@ -57,8 +57,9 @@ Upon launching the application, you can navigate the system using the following 
 ---
 
 ## 👤 Author
-* **Nguyễn Huy Long** - *Electrical Engineering, VinUniversity*
-
+* **Nguyen Huy Long** - *Electrical Engineering, VinUniversity*
+* **Hoang Manh Kien** - *Electrical Engineering, VinUniversity*
+* **Dinh Nguyen Phuong** - *Electrical Engineering, VinUniversity*
 
 ## 📂 Project Structure
 
