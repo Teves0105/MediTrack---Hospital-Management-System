@@ -1,6 +1,7 @@
-# Clinic Management System (C)
+MediTrack---Hospital-Management-System
 
-A robust, command-line interface (CLI) Clinic/Hospital Management System implemented in C. This project demonstrates the practical application of fundamental Data Structures and Algorithms (DSA) to efficiently manage patient records, doctor profiles, and medical appointments.
+
+A robust, command-line interface Hospital Management System implemented in C. This project demonstrates the practical application of fundamental Data Structures and Algorithms (DSA) to efficiently manage patient records, doctor profiles, and medical appointments.
 
 ## 🚀 Features
 
