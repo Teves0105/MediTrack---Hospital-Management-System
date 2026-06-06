@@ -24,7 +24,7 @@ A robust, command-line interface (CLI) Clinic/Hospital Management System impleme
 * **Time-Range Queries:** Find all appointments scheduled within a specific time range.
 
 ---
-
+<img width="1000" height="450" alt="Image" src="https://github.com/user-attachments/assets/5c8b71b7-72ba-4300-a208-f047ac0177b1" />
 ## 🧠 Core Data Structures Used
 
 This project leverages several classic data structures to optimize performance and memory usage:
@@ -33,57 +33,6 @@ This project leverages several classic data structures to optimize performance a
 * **Binary Search Tree - BST (`doctor.c`):** Stores doctor records by ID, enabling fast average time complexity for rapid searching, insertion, and deletion.
 * **Dynamic Array / Vector (`doctor.c`):** Acts as a flexible buffer for doctor records during file I/O and batch processing.
 * **Queue & BST (`appointment.c`):** Uses a Queue to maintain the exact order of daily medical appointments (FIFO) and a BST to efficiently query appointments by datetime.
-
----
-
-## 📂 Project Structure
-
-\`\`\`text
-.
-├── src/
-│   ├── main.c           # Program entry point and CLI menu
-│   ├── patient.c        # Patient logic (Linked List)
-│   ├── patient.h        # Patient headers
-│   ├── doctor.c         # Doctor logic (BST & Vector)
-│   ├── doctor.h         # Doctor headers
-│   ├── appointment.c    # Appointment logic (BST & Queue)
-│   ├── appointment.h    # Appointment headers
-│   ├── utils.c          # Utility functions (ID generation)
-│   └── utils.h          
-├── data/
-│   ├── patients.txt     # Local storage for patients
-│   └── doctors.txt      # Local storage for doctors
-└── README.md
-\`\`\`
-
----
-
-## 🛠️ Compilation and Execution
-
-### Prerequisites
-Ensure you have a standard C compiler installed (e.g., GCC for Linux/macOS or MinGW for Windows).
-
-### Build Instructions
-Open your terminal in the project directory and run the following command to compile all source files into a single executable:
-
-\`\`\`bash
-gcc main.c patient.c doctor.c appointment.c utils.c -o clinic_system
-\`\`\`
-
-### Running the Application
-**Important:** Create a `data` folder in the root directory before running the program, so the system can successfully save and load the `.txt` database files.
-
-**Windows:**
-\`\`\`cmd
-mkdir data
-clinic_system.exe
-\`\`\`
-
-**Linux / macOS:**
-\`\`\`bash
-mkdir data
-./clinic_system
-\`\`\`
 
 ---
 
@@ -108,7 +57,7 @@ Upon launching the application, you can navigate the system using the following 
 
 ## 👤 Author
 * **Nguyễn Huy Long** - *Electrical Engineering, VinUniversity*
-<img width="1000" height="450" alt="Image" src="https://github.com/user-attachments/assets/5c8b71b7-72ba-4300-a208-f047ac0177b1" />
+
 
 ## 📂 Project Structure
 
