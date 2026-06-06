@@ -41,24 +41,6 @@ This project is built heavily around core data structures to optimize specific o
 
 ---
 
-## 📂 Project Structure
-
-```text
-.
-├── src/
-│   ├── main.c           # Entry point and interactive CLI menu
-│   ├── patient.c        # Patient logic (Linked List)
-│   ├── patient.h        # Patient structure definition
-│   ├── doctor.c         # Doctor logic (BST & Vector)
-│   ├── doctor.h         # Doctor structure definition
-│   ├── appointment.c    # Appointment logic (BST & Queue)
-│   ├── appointment.h    # Appointment structure definition
-│   ├── utils.c          # Helper functions (ID generation)
-│   └── utils.h          
-├── data/
-│   ├── patients.txt     # Local database for patients
-│   └── doctors.txt      # Local database for doctors
-└── README.md
 🛠️ Compilation and Execution
 Prerequisites
 GCC Compiler (MinGW for Windows or standard GCC for Linux/macOS).
@@ -116,3 +98,22 @@ Integrate Appointment Menu: Link the existing backend logic in appointment.c to 
 Memory Management Optimization: Ensure all allocated nodes in the BSTs and Linked Lists are thoroughly freed upon program termination to prevent memory leaks.
 
 Input Validation: Add robust error handling for unexpected user inputs (e.g., entering strings when integers are expected).
+## 📂 Project Structure
+
+```text
+.
+├── src/
+│   ├── main.c           # Entry point and interactive CLI menu
+│   ├── patient.c        # Patient logic (Linked List)
+│   ├── patient.h        # Patient structure definition
+│   ├── doctor.c         # Doctor logic (BST & Vector)
+│   ├── doctor.h         # Doctor structure definition
+│   ├── appointment.c    # Appointment logic (BST & Queue)
+│   ├── appointment.h    # Appointment structure definition
+│   ├── utils.c          # Helper functions (ID generation)
+│   └── utils.h          
+├── data/
+│   ├── patients.txt     # Local database for patients
+│   └── doctors.txt      # Local database for doctors
+└── README.md
+
